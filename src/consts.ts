@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Kyle Fram';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_IMAGE = '/headshot.jpeg';
