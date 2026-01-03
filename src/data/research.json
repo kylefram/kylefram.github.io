@@ -1,0 +1,19 @@
+[
+  {
+    "title": "DisplayMatch: Browser-Based Perceptual Colour Calibration for Consumer Displays",
+    "authors": "Kyle Fram, Nils Rehtanz",
+    "venue": "Course Project: Advanced Graphics and Image Processing",
+    "year": "2025",
+    "description": "A browser-based perceptual color calibration tool for consumer displays using a novel matching algorithm",
+    "pdf": "/papers/PercCalibration.pdf",
+    "demo": "https://display-match.vercel.app/"
+  },
+  {
+    "title": "Improved 2D Gaussian Splatting Reconstruction from Sparse-view Images Using Diffusion Models",
+    "authors": "Kyle Fram, Yifei Shi, Albert Kwok, Jacob Georgis",
+    "venue": "Course Project: Machine Visual Perseption",
+    "year": "2025",
+    "description": "A proposed improvement to 2D Gaussian Splatting using Difix for sparse view augmentation",
+    "pdf": "/papers/2DGS_Difix.pdf"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "basics": {
+    "name": "Kyle Fram"
+  },
+  "work": [
+    {
+      "company": "Rio Markets",
+      "position": "Quantitative Researcher",
+      "startDate": "2025-06",
+      "endDate": "2025-08",
+      "description": "Developing Principal Risk Engine and Strategies"
+    },
+    {
+      "company": "Citibank Singapore",
+      "position": "Quantitative Researcher",
+      "startDate": "2023-01",
+      "endDate": "2025-06",
+      "description": "Leading q/KDB+ infrastructure development \n Researching trading algorithms for Spot FX markets"
+    },
+    {
+      "company": "Citibank NY",
+      "position": "Quantitative Trader",
+      "startDate": "2020-08",
+      "endDate": "2022-12",
+      "description": "Managing principal portfolio and \n Developing q/KDB+ client analytics platform"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cambridge University",
+      "area": "Advanced Computer Science",
+      "studyType": "Master's",
+      "startDate": "2025",
+      "endDate": "2026"
+    },
+    {
+      "institution": "Columbia University",
+      "area": "Industrial Engineering / Operations Research",
+      "studyType": "Bachelors's",
+      "startDate": "2016",
+      "endDate": "2020"
+    }
+  ],
+  "leadership": [
+    {
+      "role": "Teacher",
+      "organization": "Singapore Chinese Development Assistance Council",
+      "startDate": "2023-04",
+      "endDate": "2025-06",
+      "description": "Taught weekly English and Math classes to underprivileged children\nOrganized extracurricular activities and field trips to enhance learning experience"
+    },
+    {
+      "role": "Firefighter & Swiftwater Rescue Technician",
+      "organization": "Lawrenceville Fire Company Station 23",
+      "startDate": "2020-04",
+      "endDate": "2022-12",
+      "description": "Responded to emergency calls including fires, medical emergencies, and water rescues\nMaintained firefighting equipment and apparatus\nConducted community outreach and fire safety education"
+    },
+    {
+      "role": "Business and Cost Lead",
+      "organization": "Columbia University Formula Racing",
+      "startDate": "2017-08",
+      "endDate": "2020-05",
+      "description": "Designed MoTeC sensor analytics system for real-time data monitoring\nManaged team budget and sponsorship acquisition"
+    },
+    {
+      "role": "Resident Advisor",
+      "organization": "Columbia University Housing",
+      "startDate": "2017-08",
+      "endDate": "2020-05",
+      "description": "Provided support and guidance to a floor of 40+ students\nOrganized community-building events and programs\nMediated conflicts and enforced university policies"
+    }
+  ],
+  "athletics": [
+    {
+      "event": "Head of the Charles Championship 8+",
+      "team": "Cambridge University Boat Club",
+      "result": "1st",
+      "startDate": "2025-09",
+      "endDate": "Present"
+    },
+    {
+      "event": "Australian Championships Open 1x",
+      "team": "ANA",
+      "result": "13th",
+      "Date": "March 2025"
+    },
+    {
+      "event": "Hong Kong Championships Open 1x",
+      "team": "Easter Rowing Club",
+      "result": "4th",
+      "Date": "November 2024"
+    },
+    {
+      "event": "Hong Kong Championships Open 2x",
+      "team": "Easter Rowing Club",
+      "result": "2nd",
+      "Date": "November 2024"
+    },
+    {
+      "event": "Western Australian Championships Open 1x",
+      "team": "ANA",
+      "result": "3rd",
+      "Date": "September 2024"
+    },
+    {
+      "event": "Australian Championships Open 1x",
+      "team": "Easter Rowing Club",
+      "result": "11th",
+      "Date": "March 2024"
+    },
+      {
+      "event": "Hong Kong Championships Open 1x",
+      "team": "Easter Rowing Club",
+      "result": "3rd",
+      "Date": "November 2023"
+    },
+    {
+      "event": "Hong Kong Championships Open 2x",
+      "team": "Easter Rowing Club",
+      "result": "4th",
+      "Date": "November 2023"
+    },
+    {
+      "event": "IRA Varsity 8+",
+      "team": "Columbia University",
+      "result": "14th",
+      "Date": "June 2019"
+    },
+    {
+      "event": "World Rowing Junior Championships 4+",
+      "team": "USA Junior National Team",
+      "result": "3rd",
+      "Date": "August 2016"
+    }
+
+  ]
+}
