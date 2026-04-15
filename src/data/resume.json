@@ -73,6 +73,30 @@
   ],
   "athletics": [
     {
+      "event": "Chanel J12 Boat Race",
+      "team": "Cambridge University Boat Club",
+      "result": "Won",
+      "Date": "April 2026"
+    },
+    {
+      "event": "Leander Fixture",
+      "team": "Cambridge University Boat Club",
+      "result": "Won",
+      "Date": "April 2026"
+    },
+    {
+      "event": "Dutch National Team Fixture",
+      "team": "Cambridge University Boat Club",
+      "result": "Won",
+      "Date": "April 2026"
+    },
+    {
+      "event": "Oxford Brookes University Fixture",
+      "team": "Cambridge University Boat Club",
+      "result": "Won",
+      "Date": "April 2026"
+    },
+    {
       "event": "Head of the Charles Championship 8+",
       "team": "Cambridge University Boat Club",
       "result": "1st",
