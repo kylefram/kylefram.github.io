@@ -1,5 +1,36 @@
 [
   {
+    "title": "Filter Wheel Design for Optimal Color Reconstruction",
+    "authors": "Kyle Fram, Rafal Mantiuk, Graham Finlayson",
+    "venue": "London Imaging Meeting (LIM)",
+    "year": "2026",
+    "description": "Presented at the London Imaging Meeting. Cameras with a fixed set of color filters record colors the human eye would not, and a filter wheel lets those filters be swapped and recombined. This paper introduces a framework for choosing which filters to use — applied to the off-the-shelf Rosco Supergel set — so that a monochrome camera reconstructs the CIE XYZ color matching functions, reaching a ΔE2000 of 0.35 with as few as five filters, below the threshold of human detection. The framework generalizes to color matching functions beyond CIE 1931 XYZ.",
+    "pdf": "/papers/FilterWheel_LIM2026.pdf"
+  },
+  {
+    "title": "Filter Wheel Design for Optimal Color Reconstruction",
+    "authors": "Kyle Fram (supervised by Rafal Mantiuk and Graham Finlayson)",
+    "venue": "MPhil Thesis, University of Cambridge",
+    "year": "2026",
+    "description": "The full treatment behind the LIM paper. Develops the filter selection problem end to end: measuring the spectral transmission of every gel filter by spectrophotometer, formalizing reconstruction as a weighted combination of filtered monochrome captures, and building a hybrid selection algorithm that combines Matching Pursuit with bounded exhaustive search to find near-optimal filter sets where brute force is intractable. Adds a noise-aware loss function that models the tradeoff between exposure time, scene luminance, and reconstruction quality. Evaluates against the Macbeth Color Checker and the Preferred Memory Color Chart under both CIE 1931 and CIE 2006 standard observers, then deploys the whole pipeline on a physical camera — a monochrome global-shutter sensor, a stepper-driven 3D-printed filter wheel, and a Raspberry Pi — and reports honestly on where sensor noise and illumination instability degrade real captures relative to simulation.",
+    "pdf": "/papers/FilterWheel_Thesis.pdf",
+    "code": "https://github.com/kylefram/MultispectralCamera",
+    "images": [
+      {
+        "src": "/images/filterwheel/camera-assembled.jpg",
+        "caption": "The assembled camera: monochrome sensor, stepper-driven filter wheel, and Raspberry Pi in a 3D-printed housing."
+      },
+      {
+        "src": "/images/filterwheel/camera-side.jpg",
+        "caption": "Side view showing the filter wheel seated between the sensor and the stepper motor."
+      },
+      {
+        "src": "/images/filterwheel/lab-scene.jpg",
+        "caption": "The camera imaging a test scene in the controlled-luminance lab setup."
+      }
+    ]
+  },
+  {
     "title": "DisplayMatch: Browser-Based Perceptual Colour Calibration for Consumer Displays",
     "authors": "Kyle Fram, Nils Rehtanz",
     "venue": "Course Project: Advanced Graphics and Image Processing",
