@@ -165,30 +165,42 @@ body {
 
 body::before {
   content: "";
-  /* CHANGED: 'absolute' makes it stick to the bottom of the PAGE, not the screen.
-     You will have to scroll down to find it. */
-  position: absolute; 
-  
+  position: absolute;
+
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; /* Covers the entire scrollable height of the page */
   z-index: -1;
 
-  /* THE LONG FADE GRADIENT */
-  background-image: 
+  /* background.jpg is 504x1080. Stretched to full width it renders
+     (100vw * 1080/504) tall, and that height is fixed by the aspect ratio --
+     it does NOT grow with the page. Sizing the gradient to the same height
+     ties the fade to the image itself rather than to the page, so the image
+     dissolves into white at its own bottom edge instead of ending in a hard
+     line partway down a long page. */
+  --bg-height: calc(100vw * 1080 / 504);
+
+  /* Opaque base covering the FULL page height. The gradient below is sized to
+     the image, not the page, so without this the area past the image bottom
+     would fall through to the browser's default canvas (dark in dark mode). */
+  background-color: #ffffff;
+
+  background-image:
     linear-gradient(
-      to bottom, 
-      #ffffff 0%,    /* Starts pure white at the very top */
-      #ffffff 20%,   /* Stays pure white for the first 5% of the page */
-      rgba(255,255,255,0) 100% /* Fades to transparent at the very bottom */
+      to bottom,
+      #ffffff 0%,    /* Pure white at the very top */
+      #ffffff 28%,   /* Held white well past the header before any sky shows */
+      rgba(255,255,255,0) 68%,   /* Image fully revealed through the lower middle */
+      rgba(255,255,255,0.85) 91%,
+      #ffffff 97%    /* Back to white just before the image ends */
     ),
     url('/background.jpg');
 
-  /* Positioning */
-  background-position: top center; /* Image sits at the very bottom */
-  background-repeat: no-repeat;
-  background-size: 100% auto; /* Full width, auto height to maintain aspect ratio */
+  background-position: top center, top center;
+  background-repeat: no-repeat, no-repeat;
+  /* Gradient matches the image's rendered height; image keeps its aspect ratio. */
+  background-size: 100% var(--bg-height), 100% auto;
 }
 
 .image-reveal-spacer {
