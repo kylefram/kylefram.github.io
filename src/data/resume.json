@@ -4,6 +4,13 @@
   },
   "work": [
     {
+      "company": "Ascend Partners",
+      "position": "Software Engineer (Technical Lead)",
+      "startDate": "2026-08",
+      "endDate": "Present",
+      "description": "Leading technical development"
+    },
+    {
       "company": "Rio Markets",
       "position": "Quantitative Researcher",
       "startDate": "2025-06",
@@ -72,6 +79,12 @@
     }
   ],
   "athletics": [
+    {
+      "event": "Henley Royal Regatta Ladies' Challenge Plate",
+      "team": "Cambridge University Boat Club",
+      "result": "Finalist",
+      "Date": "July 2026"
+    },
     {
       "event": "Chanel J12 Boat Race",
       "team": "Cambridge University Boat Club",
